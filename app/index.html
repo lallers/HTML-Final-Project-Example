@@ -1,0 +1,52 @@
+
+
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'
+ 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+
+	<head>
+		<!--
+		Filename: M6A1.htm
+		Authored by: Christopher Olson
+		Date: November 11th, 2018 -->
+		<title>COP 1830 Module 6 Assignment - Advanced HTML</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="/css/M6A1.css">	
+	</head>
+
+    
+	<body>
+        <ul id="nav">
+            <li id="BrowserTest"><a href="javascript:BrowserTest()">Browser Test</a></li>
+			<li id="FeatureTest"><a href="javascript:FeatureTest()">HTML Feature Test</a></li>
+			
+			<li><a href="#">Mobile Tests</a>
+				<ul>
+					<li id="ScreenDim"><a href="javascript:ScreenDimTest()">Screen Resolution</a></li>
+					<li id="ScreenOri"><a href="javascript:ScreenOriTest()">Screen Orientation</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#">Canvas</a>
+				<ul>
+					<li id="CanvasGeneral"><a href="javascript:CanvasTest()">General Support</a></li>
+					<li id="CanvasText"><a href="javascript:CanvasTest('text')">Text Support</a></li>
+					<li id="CanvasDraw"><a href="javascript:CanvasDraw()">Draw Canvas</a></li>
+				</ul>
+			</li>
+		</ul>
+		
+		<main id="main">
+		<h1 id="heading">Click a menu item above to test various web features</h1>
+
+		<div id="output"></div>
+
+		<canvas id="myCanvas" width="0" height="0"></canvas>
+		</main>
+		<!-- Lee added -->
+		<script src="/src/M6A1.js"></script>
+	</body>
+
+</html>
+
